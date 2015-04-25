@@ -11,7 +11,7 @@ require.config({
 		'jquery':'lib/jquery.min',
 		'jgestures':'lib/jgestures.min',
 		'imgpreload':'lib/jquery.imgpreload',
-		'swiper':'swiper.min',
+		'swiper':'lib/swiper.min',
 		'TweenMax':'lib/TweenMax.min',
 		'viewSet':'app/viewSet',
 		'animate':'app/animate',
