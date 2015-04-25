@@ -12,13 +12,12 @@ define(['animate','swiper','jgestures', 'imgpreload', 'viewSet'], function(anima
 			all: showScene()
 		});
 	});
-
+	/*显示主场景*/
 	function showScene() {
 		$(".wrap_loading").hide();
-		$(".wrap_scene").show();
-		sliderInit()
-		
+		$(".wrap_scene").show(sliderInit);
 	}
+	/*swiper启动*/
 	function sliderInit() {
 		console.log("swiper")
 		var mySwiper = new Swiper('.swiper-container', {
